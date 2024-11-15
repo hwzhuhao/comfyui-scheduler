@@ -1,0 +1,14 @@
+[project]
+name = "comfyUIScheduler"
+description = "distributed cluster"
+version = "0.2.3"
+license = {file = "LICENSE"}
+dependencies = ["redis"]
+
+[project.urls]
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyUIScheduler"
+Icon = ""
